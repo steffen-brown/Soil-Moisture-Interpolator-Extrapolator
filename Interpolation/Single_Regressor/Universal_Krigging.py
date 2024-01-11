@@ -87,4 +87,4 @@ R2Results = pandas.DataFrame({
 })
 
 top5Results = R2Results.groupby('Model').apply(lambda x: x.nlargest(20, 'R2 Score')).reset_index(drop=True)
-top5Results.to_csv("./output_data/Krigging_Results.csv")
+top5Results.to_csv("./Output_Data/Krigging_Results.csv")

@@ -93,5 +93,5 @@ R2Results = pandas.DataFrame({
 })
 
 top5Results = R2Results.groupby('Model').apply(lambda x: x.nlargest(5, 'R2 Score')).reset_index(drop=True)
-top5Results.to_csv("./output_data/Other_Simple_Regressor_Results.csv")
+top5Results.to_csv("./Output_Data/Other_Simple_Regressor_Results.csv")
             
