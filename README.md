@@ -1,20 +1,3 @@
-## Set Up
-
-**Windows**
-1. Download and install Python 3 from https://www.python.org/downloads/.
-2. Navigate to *./Set_Up/windows.bat* in File Explorer and double-click it to install necessary Python libraries.
-3. Using Command Prompt, navigate to the repository Python file you are interested in executing, and run *python3 [python file name]* to execute it.
-
-**Mac**
-1. Install HomeBrew by running */bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"* in Terminal and following the prompts.
-2. In Terminal, run *brew install python*.
-3. Navigate to *./Set_Up/unix.sh* in Terminal and run *sh unix.sh* to install necessary Pythong libraries.
-4. Using Terminal, navigate to the repository Python file you are interested in executing, and run *python3 [python file name]* to execute it.
-
-
-## File Directory
-
-**Note:** Some scripts have prerequisites (pr) which must ran prior to their own execution as they rely on outputs produced by the prerequisite scipts.
 
 ## Set Up
 
