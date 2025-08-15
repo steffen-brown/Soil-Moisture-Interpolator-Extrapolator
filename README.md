@@ -1,3 +1,7 @@
+# Soil Moisture Interpolator & Extrapolator
+
+[![Academic Research](https://img.shields.io/badge/Type-Academic%20Research-blue)]()
+
 ## Description
 This project is an **academic research initiative** aimed at generating continuous soil moisture maps from sparse measurements taken by a wireless underground sensor network (WUSN) and topographic data of a study region.  
 
