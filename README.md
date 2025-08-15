@@ -1,9 +1,37 @@
-# Soil Moisture Interpolator & Extrapolator
-
-[![Academic Research](https://img.shields.io/badge/Type-Academic%20Research-blue)]()
-
 ## Description
-Python-based system for interpolating and extrapolating live soil moisture maps from sparse wireless underground sensor network (WUSN) data and topographic information, enabling continuous coverage across a study area.
+This project is an **academic research initiative** aimed at generating continuous soil moisture maps from sparse measurements taken by a wireless underground sensor network (WUSN) and topographic data of a study region.  
+
+The workflow explores both **interpolation** and **extrapolation** techniques for estimating volumetric water content (VWC) across a landscape. Multiple approaches were implemented and evaluated, including:  
+
+- **Single Regressor Models:**  
+  - Multiple Linear Regression  
+  - Gradient Boosting Regressor  
+  - Multi-Layer Perceptron (MLP)  
+  - Random Forest Regressor  
+  - Support Vector Machine Regressor  
+  - Universal Kriging  
+
+- **Hybrid Clustering + Regression Models:**  
+  Each regression model was paired with one of several clustering methods to improve spatial prediction accuracy:  
+  - Agglomerative Clustering  
+  - DBSCAN  
+  - Gaussian Mixture Models  
+  - K-Means  
+  - Mean Shift  
+
+- **Model Tuning:**  
+  Top-performing models from each clustering method were further optimized via hyperparameter tuning.
+
+- **Visualization and Validation:**  
+  - **Heatmaps:** Generated to visualize soil moisture predictions for both single-day and multi-day datasets.  
+  - **Validation:** Compared predicted values against in-situ and WUSN-collected measurements using multi-day validation workflows.  
+  - **Comparison Tools:** Scripts to compare interpolation and extrapolation maps side-by-side.
+
+This end-to-end pipeline enables:
+- Predicting soil moisture in areas without direct sensor coverage  
+- Comparing the performance of different modeling approaches  
+- Visualizing results through interpretable spatial heatmaps  
+- Evaluating temporal changes across precipitation events  
 
 ## Set Up
 
