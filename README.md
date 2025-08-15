@@ -1,3 +1,9 @@
+# Soil Moisture Interpolator & Extrapolator
+
+[![Academic Research](https://img.shields.io/badge/Type-Academic%20Research-blue)]()
+
+## Description
+Python-based system for interpolating and extrapolating live soil moisture maps from sparse wireless underground sensor network (WUSN) data and topographic information, enabling continuous coverage across a study area.
 
 ## Set Up
 
