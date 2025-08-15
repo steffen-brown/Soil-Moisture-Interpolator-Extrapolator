@@ -35,7 +35,10 @@ This end-to-end pipeline enables:
 - Predicting soil moisture in areas without direct sensor coverage  
 - Comparing the performance of different modeling approaches  
 - Visualizing results through interpretable spatial heatmaps  
-- Evaluating temporal changes across precipitation events  
+- Evaluating temporal changes across precipitation events
+
+## Contribution
+This project was fully authored and developed by Steffen Brown, including all code implementation, experimentation, and documentation.
 
 ## Set Up
 
